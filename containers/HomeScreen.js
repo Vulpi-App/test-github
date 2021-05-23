@@ -9,10 +9,8 @@ export default function HomeScreen() {
     <View>
       <Text>Ajout d'un texte !</Text>
       <Text>Ca fait faire des erreurs !</Text>
-
-      <Text>Ajout d'un second texte !</Text>
-
       <Text>Welcome home!</Text>
+      <Text>Ajout d'un autre text</Text>
       <Button
         title="Go to Profile"
         onPress={() => {
