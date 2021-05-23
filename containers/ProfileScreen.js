@@ -15,11 +15,10 @@ export default function ProfileScreen() {
         colors={["#4c669f", "#3b5998", "#192f6a"]}
         style={styles.linearGradient}
       >
-        <Text style={styles.buttonText}>Sign in with Facebook</Text>
+        <Text style={styles.buttonText}>Sign in with Google</Text>
       </LinearGradient>
 
       <Text>Deuxième texte - test conflit</Text>
-
     </View>
   );
 }
