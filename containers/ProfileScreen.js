@@ -10,12 +10,16 @@ export default function ProfileScreen() {
   return (
     <View>
       <Text>user id : {params.userId}</Text>
+
       <LinearGradient
         colors={["#4c669f", "#3b5998", "#192f6a"]}
         style={styles.linearGradient}
       >
         <Text style={styles.buttonText}>Sign in with Facebook</Text>
       </LinearGradient>
+
+      <Text>Deuxième texte - test conflit</Text>
+
     </View>
   );
 }
