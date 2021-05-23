@@ -3,6 +3,7 @@ import { useRoute } from "@react-navigation/core";
 import { Text, View } from "react-native";
 
 export default function ProfileScreen() {
+  // Hello la team Vulpi
   const { params } = useRoute();
   return (
     <View>
@@ -10,3 +11,5 @@ export default function ProfileScreen() {
     </View>
   );
 }
+
+// StyleSheet
