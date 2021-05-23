@@ -4,6 +4,7 @@ import { Button, Text, View } from "react-native";
 
 export default function HomeScreen() {
   const navigation = useNavigation();
+  const test = "Hello test";
   return (
     <View>
       <Text>Ajout d'un texte !</Text>
