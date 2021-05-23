@@ -7,7 +7,6 @@ export default function SignInScreen({ setToken }) {
   return (
     <View>
       <View>
-        <Text>Hello!</Text>
         <Text>Name: </Text>
         <TextInput placeholder="Username" />
         <Text>Password: </Text>
