@@ -8,6 +8,7 @@ export default function ProfileScreen() {
   return (
     <View>
       <Text>user id : {params.userId}</Text>
+      <Text>Deuxième texte - test conflit</Text>
     </View>
   );
 }
